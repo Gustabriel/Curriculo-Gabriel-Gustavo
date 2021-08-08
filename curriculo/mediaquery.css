@@ -4,33 +4,39 @@
         font-size:15px;
     }
     main {
-        margin: 0.8% 8%;
+        margin: 2% 4%;
     }
 }
 
 @media (max-width: 73rem) {
     html {
-        font-size:13px;
+        font-size:14px;
     }
     .container {
-            justify-content: center;
-            flex-flow: column wrap;
-            padding: 20px 50px;
-            border: 5px solid #00ff5f;
-        }
-        .container .logo img {
-            width: 380px;
-            margin-bottom: 5px;
-        }  
+        justify-content: center;
+        flex-flow: column wrap;
+        padding: auto;
+        border: 5px solid #00ff5f;
+    }
+    .container .logo img {
+        width: 80%;
+        padding-left: 20%;
+        margin-bottom: 5px;
+    }  
 }
+
 
 @media (max-width: 50rem) {
     html {
-        font-size:12px;
+        font-size:15px;
     } 
     .container {
         padding: 15px 0px;
     }
+    .container .logo img {
+        width: 100%;
+        padding-left: 0%;
+    }  
 }
 
 
@@ -46,6 +52,9 @@
     .sobre {
         margin: 10px 30px;
         padding: 10px;
+    }
+    .sobre .titulo {
+        justify-content: center;
     }
 }
 
@@ -69,6 +78,6 @@
 /* ----- FOOTER ----- */
 @media (max-width: 50rem){
     footer p {
-        font-size: 0.70rem;
+        font-size: 0.60rem;
     }
 }

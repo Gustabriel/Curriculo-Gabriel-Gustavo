@@ -48,6 +48,7 @@ main {
 
 .container .menu ul {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .container .menu ul li {
@@ -98,11 +99,12 @@ main {
 }
 
 .sobre h1 {
-    margin: 40px 20px 10px 10px;
+    
+    margin: 20px 20px 10px 10px;
 }
 
 .sobre p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .sobre #nomarg {
