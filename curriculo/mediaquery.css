@@ -50,8 +50,8 @@
 
 @media (max-width: 50rem) {
     .sobre {
-        margin: 10px 30px;
-        padding: 10px;
+        margin: 10px 20px;
+        padding: 5px;
     }
     .sobre .titulo {
         justify-content: center;
