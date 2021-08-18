@@ -26,6 +26,10 @@ main {
     border: 1px solid #00ff5f;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ----- HEADER ----- */
 #MarginTop {
     border-top: 5px solid #00ff5f;
